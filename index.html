@@ -6,18 +6,30 @@
   </head>
   <body>
     <header>
-      <section>
-        <img src="img/logo/220x47" alt="logo-top">
-        <p>Поиск</p>
-        <p>Закладки</p>
-        <p>Корзина</p>
-        <p>Оформить заказ</p>
-      </section>
+      <a class="logo" href="#">ТЕХНОМАРТ</a>
+      <form action="#" method="post">
+        <label for="search-form" >Поиск:</label>
+        <input id="search-form" type="search" name="search" placeholder="Поиск:"> 
+            <button type="submit" id="submit">
+                <img src="img/icon-search.png" width="17" height="17" alt="Search">
+            </button>
+    </form>
+      <ul class="user-menu">
+        <li>
+          <a href="#"><img src="img/icon-bookmark.png" width="14px" height="15,58px" alt="Bookmark">Закладки</a>
+        </li>
+        <li>
+          <a href="#"><img src="img/icon-cart.png" width="15px" height="15px" alt="cart">Корзина</a>
+        </li>
+        <li>
+          <a href="#">Оформить заказ</a>
+        </li>
+      </ul>
       <section>
         <p><i>Интернет-магазин<br>
         строительных материалов <br>
         и инструментов для ремонта</i></p>
-        <p>+7(812)555-05-55</p>
+        <p><img src="img/shape.png" width="17,51px" height="18,97px" alt="Phone">+7(812)555-05-55</p>
         <p>г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
         <p>Войти</p>
         <p>Регистрация</p>
@@ -38,39 +50,39 @@
       <section>
         <div>
           <h3>Материалы</h3>
-          <p>На любой вкус</p>
-          <img src="50x50">
+          <img src="img/icon-1.png" width="44px" height="65px" alt="materials">
+          <button><a href="#">На любой вкус</a></button>
         </div>
         <div>
           <h3>Инструмент</h3>
-          <p>На все случаи</p>
-          <img src="50x50">
+          <img src="img/icon-2.png" width="74,92px" height="61px" alt="instruments">
+          <button><a href="#">На все случаи</a></button>
         </div>
         <div>
           <h3>Техника</h3>
-          <p>для стройки</p>
-          <img src="50x50">
+          <img src="img/icon-3.png" width="77,96px" height="62px" alt="instruments">
+          <button><a href="#">Для стройки</a></button>
         </div>
         <div>
           <h3>Скидки 50%</h3>
-          <p>на 350 товаров</p>
-          <img src="50x50">
+          <img src="img/icon-4.png" width="58,89px" height="70,89px" alt="sale">
+          <button><a href="#">на 350 товаров</a></button>
         </div>
         <div>
           <h3>Доставка</h3>
-          <p>Бесплатно</p>
-          <img src="50x50">
+          <img src="img/icon-5.png" width="78px" height="63px" alt="delivery">
+          <button><a href="#">Бесплатно</a></button>
         </div>
         <div>
-          <h1>Перфораторы</h1>
+          <h2>Перфораторы</h2>
+          <img src="img/Object.jpg" width="620px" height="266px" alt="Perforators">
           <p>Настоящие мужские игрушки</p>
-          <img src="200x150">
-        </div>
+         </div>
         <div>
           <div>
-            <h1>Дрели</h1>
+            <h2>Дрели</h2>
+            <img src="img/Object2.jpg" width="620px" height="266px" alt="drills">
             <p>Соседям на радость</p>
-            <img src="200x150">
           </div>
         </div>
        </section>
@@ -79,28 +91,28 @@
          <p>Все популярные товары</p>
         <ul>
           <li>
-            <img src="70x50">
+            <img src="img/bosch 9000.jpg" width="184px" height="164px">
             <p>Перфоратор Bosch <br>
             BFG 9000</p>
             <p>32500 Р.</p>
             <p>25500 h/</p>
           </li>
           <li>
-            <img src="70x50">
+            <img src="img/bosch 3000.jpg" width="127px" height="112px">
             <p>Перфоратор Bosch <br>
             BFG 3000</p>
             <p>22500 Р.</p>
             <p>51500 h/</p>
           </li>
           <li>
-            <img src="70x50">
+            <img src="img/bosch 6000.jpg" width="144px" height="128px">
             <p>Перфоратор Bosch <br>
             BFG 6000</p>
             <p>30500 Р.</p>
             <p>25500 h/</p>
           </li>
           <li>
-            <img src="70x50">
+            <img src="img/bosch 2000.jpg" width="127px" height="112px">
             <p>Перфоратор Bosch <br>
             BFG 2000</p>
             <p>22500 Р.</p>
@@ -111,18 +123,45 @@
        <section>
          <h2>Популярные производители</h2>
          <p>все производители</p>
-         <table>
-           <tr>
-             <td>Bosch</td>
-             <td>Makita</td>
-             <td>DeWalt</td>
-             <td>Интерскол</td>
-           </tr>
-           <tr>
-            <td>Hitachi</td>
-            <td>LG</td>
-            <td>AEG</td>
-            <td>Metabo</td>
+         <ul>
+             <li>
+               <a href="#">
+                 <img src="img/bosch.png" width="126px" height="37px" alt="Bosch">
+               </a>
+            </li>
+             <li>
+              <a href="#">
+                <img src="img/Makita.png" width="123px" height="40px" alt="Makita">
+              </a>
+             </li>
+             <li>
+              <a href="#">
+                <img src="img/DeWALT.png" width="146px" height="44px" alt="Dewalt">
+              </a>
+             </li>
+             <li>
+              <a href="#">
+                <img src="img/Interskol.png" width="200px" height="76px" alt="Interscol">
+              </a>
+             </li>
+             <li>
+              <a href="#">
+                <img src="img/Hitachi.png" width="169px" height="31px" alt="Hitachi">
+              </a>
+             </li>
+             <li>
+              <a href="#">
+                <img src="img/LG.png" width="121px" height="73px" alt="LG">
+              </a>
+             </li>
+             <li>
+              <a href="#">
+                <img src="img/AEG.png" width="151px" height="96px" alt="AEG">
+              </a>
+             </li>
+             <li><a href="#">
+              <img src="img/Metabo.png" width="204px" height="69px" alt="Metabo">
+            </a></li>
           </tr>
          </table>
        </section>
@@ -142,7 +181,7 @@
         Ведь мы неплохо заработаем, <br>
       поднимая его на ваш этаж!</p>
          </span>
-         <img src="200x200" alt="car">
+         <img src="img/truck.png" width="468px" height="261px" alt="car">
        </section>
        <article>
          <h2>Компания "Техномарт"</h2>
@@ -151,20 +190,21 @@
          </p>
          <p>Мы можем доставить ваш товар в самые отдаленные
            точки России! <br>
-           Техномарт работает со многими транспортными компаниями:
+           Техномарт работает со многими транспортными компаниями:</p>p>
            <ul>
              <li>Деловые линии</li>
              <li>Автотрейдинг</li>
              <li>ЖелДорЭкспедиция</li>
            </ul>
-         </p>
+         <div>Подробнее о компании</div>
        </article>
        <div>
          <h2>Контакты</h2>
          <p>Вы можете забрать товар сами, заехав в наш офис:
           </p>
-          <img src="150x150" alt="map">
+          <img src="img/map.png" width="300px" height="158px" alt="map">
        </div>
+       <div>Заблудились? Напишите нам</div>
     </main>
       <footer>
       <img src="logo/220x47">
@@ -190,9 +230,9 @@
           Все права защищены
         </p>
         <nav>
-          <img src="20x20" alt="vk">
-          <img src="20x20"alt="fb">
-          <img src="20x20" alt="inst">
+          <img src="img/vk.png" weidth="25,05px" height="14,06px" alt="vk">
+          <img src="img/fb.png" width="12px" height="22px" alt="fb">
+          <img src="img/inst.png" width="21px" height="21px" alt="inst">
         </nav>
         <p>Обратная связь:</p>
         <a href="htmlacademy">mail@htmlacademy.ru</a>
